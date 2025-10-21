@@ -1,5 +1,5 @@
 // index.js
-console.log("Hello, Keerthi! This is your first JavaScript project 🎉");
+console.log("Hello, Keerthi! This is your feature1 branch 🎉");
 
 let num1 = 10;
 let num2 = 20;
