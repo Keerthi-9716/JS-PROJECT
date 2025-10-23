@@ -1,17 +1,19 @@
 {
   "name": "js-project",
   "version": "1.0.0",
-  "description": "",
+  "description": "A simple JavaScript project for Azure DevOps pipeline testing",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "build": "echo \"Building project...\" && mkdir -p dist && cp index.js dist/",
+    "test": "echo \"No tests yet\" && exit 0"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Keerthi-9716/JS-PROJECT.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Keerthi Pakera",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Keerthi-9716/JS-PROJECT/issues"
