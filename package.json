@@ -1,22 +1,25 @@
 {
   "name": "js-project",
   "version": "1.0.0",
-  "description": "A simple JavaScript project for Azure DevOps pipeline testing",
+  "description": "A sample JavaScript project for Azure DevOps CI/CD pipeline.",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-     "build": "echo Building JS Project... && node index.js",
-    "test": "echo \"No tests yet\" && exit 0"
+    "build": "echo Building project... && node index.js",
+    "test": "echo Running tests... && exit 0"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Keerthi-9716/JS-PROJECT.git"
-  },
-  "keywords": [],
+  "keywords": ["azure", "pipeline", "javascript", "node"],
   "author": "Keerthi Pakera",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Keerthi-9716/JS-PROJECT/issues"
+  "repository": {
+    "type": "git",
+    "url": "https://dev.azure.com/AZ-Devops-Project/Devops/_git/JS-PROJECT"
   },
-  "homepage": "https://github.com/Keerthi-9716/JS-PROJECT#readme"
+  "bugs": {
+    "url": "https://dev.azure.com/AZ-Devops-Project/Devops/_git/JS-PROJECT/issues"
+  },
+  "homepage": "https://dev.azure.com/AZ-Devops-Project/Devops/_git/JS-PROJECT#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
 }
